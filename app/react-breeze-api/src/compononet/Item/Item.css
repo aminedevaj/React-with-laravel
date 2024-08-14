@@ -1,0 +1,32 @@
+.items{
+    width: 350px;
+    transition: 0.5s;
+    
+}
+
+.items:hover img{
+    transform: scale(0.9);
+}
+
+.items img{
+    width: 100%;
+    border-radius: 10px;
+    height: 85%;
+    cursor: pointer;
+}
+.items p{
+   
+    margin: 10px 0px;
+    font-size: 30px;
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+
+
+.Link{
+    color: black;
+    text-decoration: none;
+}
