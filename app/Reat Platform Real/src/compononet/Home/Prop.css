@@ -1,0 +1,26 @@
+.Propulaire{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+
+    height: auto;
+}
+.Propulaire h1{
+    color: #171717;
+    font-weight: 600;
+    font-size: 50px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.propular-item{
+
+    margin-top: 50px;
+    display: flex;
+    gap: 30px;
+}
+.Propulaire hr{
+    width: 200px;
+    height: 6px;
+    border-radius: 10px;
+    background-color: #252525;
+}

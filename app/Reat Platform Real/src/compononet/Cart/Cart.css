@@ -1,0 +1,32 @@
+.Cart{
+   
+    height: 50vh;
+    padding: 50px;
+    
+    margin: 50px;
+}
+.ALLCart h1{
+    color: #171717;
+    font-weight: 600;
+    
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.ALLCart hr{
+  
+    width: 200px;
+    height: 6px;
+    border-radius: 10px;
+    background-color: #f70000;
+    display: flex;
+    
+   
+}
+
+.maps{
+
+    height: 70vh;
+    width: 100%;
+    
+}

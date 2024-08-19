@@ -1,0 +1,126 @@
+.About {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 80px;
+    margin: 80px 180px;
+}
+
+.About .achievements {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    margin-bottom: 80px;
+}
+
+
+
+.About .achievements .achievement h1 {
+    color: #ff9100;
+    font-weight: 700;
+    background: linear-gradient(264deg, #ff9100 -5.09%, #181818 106.25%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.About .achievements .achievement p {
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.About .achievements .achievement:hover {
+    cursor: pointer;
+    transform: scale(1.12);
+    transition: 0.5s;
+}
+
+.About .about-section {
+    display: flex;
+    gap: 80px;
+}
+
+.About .about-section .about-right {
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+}
+
+.About .about-section .about-right .about-skills {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.About .about-section .about-right .about-skills .about-skill {
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    transition: 0.3s;
+}
+
+.About .about-section .about-right .about-skills .about-skill hr {
+    outline: none;
+    border: none;
+    width: 50%;
+    height: 8px;
+    border-radius: 50px;
+    background: linear-gradient(264deg, #ff9100 -5.09%, #181818 106.25%);
+}
+
+.About .about-section .about-right .about-skills .about-skill p {
+    max-width: 150px;
+    font-size: 24px;
+    font-weight: 300;
+}
+
+.About .about-section .about-right .about-skills:hover {
+    transform: scale(1.05);
+    transition: 0.3s;
+}
+
+.About .about-section .about-right .about-para {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.About .about-titl {
+    position: relative;
+}
+
+.About .about-titl h1 {
+    padding: 0px 30px;
+    font-size: 80px;
+    font-weight: 600;
+    text-align: center;
+}
+img{
+    border-radius: 10px;
+}
+.imgab:hover{
+    transform: scale(1.1);
+}
+p{
+    font-size: 20px;
+    position: relative;
+    color: slategrey;
+    text-transform:initial
+
+}
+.con{
+    padding: 15px 30px;
+    border: none;
+    color: black;
+    font-weight: bold;
+    font-size: 1.2rem;
+    background-color: green;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.4s;
+}
+.con:hover{
+    transform: scale(1);
+}

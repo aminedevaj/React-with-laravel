@@ -1,0 +1,44 @@
+.home-page{
+    display: flex;
+  
+height: 80vh; 
+    
+}
+.home-page.textcontainer{
+    flex: 3;
+}
+   
+.imgcontainer{
+    flex: 2;
+    margin-bottom: 40px;
+
+}
+.shaape{
+   
+  
+    width: 80%;
+    height: 120%;
+}
+.textcontainer{
+    flex: 3;
+    padding: 10rem;
+  
+
+
+}
+.boxes{
+    display: flex;
+  justify-content: space-between;
+
+}
+.boxes:hover{
+    transform: scale(13px);
+}
+.boxes h3{
+    font-size: 3rem;
+}
+.boxes h6{
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: red;
+}

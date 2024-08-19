@@ -1,0 +1,65 @@
+.searchBar button{
+    
+        border: none;
+        background-color: red;
+        padding: 12px 24px;
+        color: whitesmoke;
+        font-weight: bold;
+        font-size: 15px;
+       
+     
+    cursor: pointer;
+    
+   
+
+}
+.searchBar  
+form{
+    border: 1px solid #999;
+       display: flex;
+       justify-content: space-between;
+       height: 64px;
+       gap: 1px;
+      
+      
+      
+
+    
+}
+form  input{
+        border: none;
+        padding: 0px 10px;
+        width: 240px;
+       
+       }
+.searchBar form button{
+    border: none;
+    background-color: red;
+    padding: 12px 24px;
+    color: whitesmoke;
+    font-weight: bold;
+    font-size: 15px;
+   
+ 
+cursor: pointer;
+   }
+
+.type{
+
+   
+}
+.type .active{
+    background-color: black;
+    color: white;
+
+}
+.type button{
+    padding: 16px 36px;
+    color: black;
+        border: 1px solid black;
+        cursor: pointer;
+        background-color: white;
+        text-transform: capitalize;
+        border-radius: 10px 0px;
+        border-bottom: none;
+}

@@ -1,0 +1,85 @@
+.slider {
+    width: 100%;
+    height: 350px;
+    display: flex;
+    gap: 20px;
+}
+
+.slider .fullSlider {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.slider .fullSlider .arrow {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.slider .fullSlider .arrow img {
+    width: auto;
+    height: auto;
+    cursor: pointer;
+}
+
+.slider .fullSlider .arrow img.right {
+    transform: rotate(180deg);
+}
+
+.slider .fullSlider .imgContainer {
+    flex: 10;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.slider .fullSlider .imgContainer img {
+    width: 50%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.slider .fullSlider .close {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    color: white;
+    font-size: 36px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.slider img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.slider .bigimages {
+    flex: 3;
+}
+
+.slider .smallimages {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.slider .smallimages img {
+    height: 115px;
+    object-fit: cover;
+    cursor: pointer;
+    border-radius: 10px;
+}
